@@ -1,0 +1,17 @@
+#submitButton {
+    background-color: yellow;
+    padding-left: 100px;
+}
+
+.autoSlide {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    #submitButton {
+        background-color: blue;
+        padding-left: 10px
+    }
+}
