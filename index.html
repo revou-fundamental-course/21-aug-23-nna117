@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harvard</title>
+    <link rel="icon" href="assets/revou.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <img
+          src="assets/harvard_logo.png"
+          class="nav-img"
+          alt="revou"
+          width="50"
+          height="50"
+        />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#achievement">Achievement</a></li>
+          <li><a href="#message">Message Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section id="home">
+        <h1 id="welcomeMessage">Hi there, Welcome To Harvard Website</h1>
+        <p class="text-medium">
+          Where world-class professors, innovative research, and a dynamic
+          student community come together to advance education and foster change
+          in the world.
+        </p>
+        <a href="https://www.harvard.edu" class="image-link" target="_blank">
+          <img
+            id="hvrd1"
+            src="assets/img-1.jpg"
+            class="home-img"
+            alt="revou"
+            width="1366"
+            height="578"
+          />
+          <img
+            id="hvrd2"
+            src="assets/img-2.jpg"
+            class="home-img"
+            alt="revou"
+            width="1366"
+            height="578"
+          />
+          <img
+            id="hvrd3"
+            src="assets/img-3.jpg"
+            class="home-img"
+            alt="revou"
+            width="1366"
+            height="578"
+          />
+        </a>
+      </section>
+
+      <section id="profile" class="profile-section">
+        <div class="profile-content">
+          <h1>About Our School</h1>
+          <p>
+            Those who venture here—to learn, research, teach, work, and
+            grow—join nearly four centuries of students and scholars in the
+            pursuit of truth, knowledge, and a better world.
+          </p>
+        </div>
+        <div class="profile-content">
+          <h1>Mission</h1>
+          <p>
+            Harvard University's mission is rooted in the advancement of
+            knowledge, wisdom, and innovation through rigorous research,
+            dedicated teaching, and impactful public service. With an unwavering
+            commitment to excellence and the highest standards of scholarship,
+            Harvard aims to empower students to become leaders equipped with
+            critical thinking skills and informed judgment. The university's
+            diverse academic community seeks to prepare individuals for a
+            purposeful life, meaningful work, and influential leadership across
+            various sectors.
+          </p>
+        </div>
+        <div class="profile-content">
+          <h1>Vission</h1>
+          <p>
+            Harvard University envisions itself as a global leader in education,
+            setting the standard for nurturing the leaders of the 21st century.
+            The university strives to establish an exceptional environment that
+            fosters unparalleled learning experiences, transformative
+            discoveries, and intellectual growth. Through this vision, Harvard
+            aims to educate and shape principled leaders who excel in academia,
+            government, business, and nonprofit sectors. The institution's
+            dedication to profound research, respect for diversity, and
+            commitment to collaboration all contribute to its aspiration to
+            create positive and lasting impacts on a global scale.
+          </p>
+        </div>
+      </section>
+      <section id="achievement">
+        <h1>Our Facilitation</h1>
+        <div class="flex-container">
+          <div class="image-container">
+            <div class="rounded-image home-img">
+              <img
+                src="assets/art_museum.jpg"
+                alt="revou"
+                class="border-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <p class="caption">Harvard Art Museums</p>
+          </div>
+          <div class="image-container">
+            <div class="rounded-image home-img">
+              <img
+                src="assets/stadium.jpg"
+                alt="revou"
+                class="border-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <p class="caption">Harvard Stadium</p>
+          </div>
+          <div class="image-container">
+            <div class="rounded-image home-img">
+              <img
+                src="assets/science_center.jpg"
+                alt="revou"
+                class="border-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <p class="caption">Science Center</p>
+          </div>
+          <div class="image-container">
+            <div class="rounded-image home-img">
+              <img
+                src="assets/harvard_yard.jpg"
+                alt="revou"
+                class="border-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <p class="caption">Harvard Yard</p>
+          </div>
+          <div class="image-container">
+            <div class="rounded-image home-img">
+              <img
+                src="assets/widener_library.jpg"
+                alt="revou"
+                class="border-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <p class="caption">Widener Library</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="message">
+        <h1>Message Us</h1>
+        <div class="flex-container">
+          <div class="form-container">
+            <form id="inputForm">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="birthday">Date of Birth:</label>
+              <input type="date" id="birthday" name="birthday" required />
+
+              <label>Gender:</label>
+              <label
+                ><input type="radio" name="gender" value="Male" required />
+                Male</label
+              >
+              <label
+                ><input type="radio" name="gender" value="Female" required />
+                Female</label
+              >
+
+              <label for="about">About:</label>
+              <textarea id="about" name="about" rows="4" required></textarea>
+
+              <button type="submit" id="submitButton">Submit</button>
+            </form>
+          </div>
+          <div id="displayContainer" class="display-container">
+            <div class="display-content">
+              <p>
+                <span class="label">Current Time:</span>
+                <span class="value">...</span>
+              </p>
+              <p>
+                <span class="label">Name:</span> <span class="value">...</span>
+              </p>
+              <p>
+                <span class="label">Birthday:</span>
+                <span class="value">...</span>
+              </p>
+              <p>
+                <span class="label">Gender:</span>
+                <span class="value">...</span>
+              </p>
+              <p>
+                <span class="label">About:</span> <span class="value">...</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <p class="footer-text">Created By Christopher Russell</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
